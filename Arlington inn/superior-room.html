@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Grand Superior Room</title>
+        
+        
+
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- Font awesome css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+ 
+    </head>
+    
+    <body>
+        
+        <header class="header_area" style="background-color: white;">     
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="main_header">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-2">
+                                <div class="logo">
+                                    <a href="index.html"><img src="img/logo1.jpg" alt="Site Logo"></a>                     
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-10 nav_area">
+                                <nav class="main_menu">
+                                    <div class="navbar-collapse collapse"> 
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="accommodation.html">Accommodation</a></li>
+                                            <li><a href="Facilities&Services.html">Facilities</a></li>
+                                            <li><a href="Location&ContactUs.html">Contact Us</a></li>
+                                            <li><a href="Reservation.html">Reservation</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        
+   <div class="container" style="background-color: white;padding:0;">
+
+           <section>
+            <div class="container">
+
+                <div class="back_nav">
+                    <div class="col-sm-5">
+                        <h2>Grand Superior</h2>
+                    </div>
+                    <div class="col-sm-7">
+                        <ul class="text_a_r" style="text-align: right;">
+                            <li><a href="Accommodation.html">Accommodation</a></li>
+                            <li>Grand Superior</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+          <section >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-8">
+                        <div class="contact_form1">
+                            <h1>Grand Superior</h1>
+                            <p>Grand Superior room, are modern decorated, that accommodate up το 2 persons, totally soundproofed and equipped with high tech comforts such as high speed internet access, USB ports , smart TV, room cleaning touch system. Sofa bed located in some of them can accommodate a family in comfort. Feature of this type of room is the hammam that offers private moments of relaxation.</p>
+							<h2>Book Now:</h2>
+                            <form action="Rooms.php" method="POST">
+                                <div class="row contact_form">
+                                    <div class="col-sm-6">
+                                        <label>First Name<span>*</span></label>
+                                        <input type="text" name="first_name" required>
+                                        <label>Last Name<span>*</span></label>
+                                        <input type="text" name="last_name" required>
+                                        <label>Phone Number<span>*</span></label>
+                                        <input type="text" name="phone_number" required>
+										<label>E-Mail<span>*</span></label>
+                                        <input type="text" name="email" required>
+										
+                                    </div>
+                                    <div class="col-sm-6"><br/>
+										<label>Room Type<span>*</span></label>
+                                        <input type="text" name="room_type" value="Superior Room" readonly required>
+                                        <label>Special Requests<span>*</span></label>
+                                        <textarea cols="30" rows="10" name="special" required></textarea>
+                                    </div>
+                                </div>
+                                <div style="text-align: right;">
+                                    <input type="submit" value="Submit">
+									<input type="reset" value="Reset">
+									<br/>
+									<br/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </section>
+
+        </div>
+        <br>
+
+        <footer class="footer_area">
+            
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-sm-8">
+                            <nav class="footer_menu">
+                                <ul>
+                                    
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="accommodation.html">Accommodation</a></li>
+                                    <li><a href="Facilities&Services.html">Facilities</a></li>
+                                    <li><a href="Location&ContactUs.html">ContactUs</a></li>
+                                    <li><a href="Reservation.html">Reservation</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+
+        ​​  
+    </body>
+</html>
